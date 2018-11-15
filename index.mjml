@@ -1,0 +1,148 @@
+<mjml>
+  <mj-head>
+    <mj-font name="Open Sans" href="https://fonts.googleapis.com/css?family=Open+Sans:600,700" />
+    <mj-style>
+      @media all and (max-width: 450px) {
+        .align-price {padding-left:0px !important;}
+        .product-img {width:100% !important;max-width:100% !important;padding: 20px 20px 0px 20px !important;}
+        .product-info {width:100% !important;max-width:100% !important;}
+        .product-info td[vertical-align="middle"] {padding: 0 !important;}
+      }
+    </mj-style>
+    <mj-breakpoint width="320px" />
+  </mj-head>
+  <mj-body width="650px" background-color="#e5e5e5">
+    <mj-section padding="0 0" background-color="#ffffff">
+      <mj-column>
+        <mj-image padding="0 0" align="center" border="none" src="http://alexi-web.000webhostapp.com/suns/hero.jpg" title="Black Friday"></mj-image>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0 0" background-color="#ffffff">
+      <mj-column padding="0 35px" vertical-align="bottom">
+        <mj-image align="left" padding="0 0" alt="Suns House" width="84px" src="http://alexi-web.000webhostapp.com/suns/logo.jpg">
+        </mj-image>
+      </mj-column>
+      <mj-column padding="0 35px 0 10px" vertical-align="bottom">
+        <mj-text padding="0" align="right" font-family="Open Sans, Arial" font-size="12px" font-weight="600" color="#333333">
+          <a style="color: #333333" href="https://sunshouse.com.ua/" target="_blank">
+            Перейти на сайт
+          </a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-wrapper padding="0 35px 38px" background-color="#ffffff">
+      <mj-section padding="50px 0 25px">
+        <mj-column>
+          <mj-text line-height="120%" padding="0 0 25px" align="left" font-family="Open Sans, Arial" font-size="16px" font-weight="700" color="#333333">
+            Уважаемый, Анатолий!
+          </mj-text>
+          <mj-divider border-width="1px" border-color="#efc0c1" padding="0"></mj-divider>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding="0">
+        <mj-column>
+          <mj-text padding="0" line-height="138%" align="left" font-family="Open Sans, Arial" font-size="13px" font-weight="600" color="#333333">
+            Благодарим за заказ в интернет-магазине Sun’s House. Ваш заказ получен и ожидает на обработку. Наш менеджер обязательно свяжется с Вами в ближайшее время.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+
+    <mj-wrapper padding="0 35px 72px" background-color="#ffffff">
+      <mj-section padding="0 0 16px">
+        <mj-column>
+          <mj-text padding="0" align="left" font-family="Open Sans, Arial" font-size="13px" font-weight="700" color="#333333">
+            Товар, который Вы выбрали:
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section border="1px solid #d7d7d7" padding="0">
+        <mj-column css-class="product-img" vertical-align="middle" width="22%" padding="0">
+          <mj-image align="left" width="120px" padding="0" src="http://alexi-web.000webhostapp.com/suns/product-1.jpg" alt="Фото товара" />
+        </mj-column>
+        <mj-column css-class="product-info" width="78%" vertical-align="middle">
+          <mj-section vertical-align="middle" padding="15px 20px">
+            <mj-column width="65%" vertical-align="middle">
+              <mj-text padding="0 5px 0 0" align="left" vertical-align="middle" font-family="Open Sans, Arial" line-height="138%" font-size="13px" font-weight="600" color="#333333">
+                Мужское пальто K-098 (Duffle coat)
+              </mj-text>
+            </mj-column>
+            <mj-column width="35%" vertical-align="middle">
+              <mj-text padding="0 0 0 5px" align="right" css-class="align-price" vertical-align="middle" font-family="Open Sans, Arial" line-height="138%" font-size="13px" font-weight="700" color="#333333">
+                3 298 грн
+              </mj-text>
+            </mj-column>
+          </mj-section>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+
+    <mj-wrapper padding="0 35px" background-color="#ffffff">
+      <mj-section padding="0 0 45px">
+        <mj-column>
+          <mj-text padding="0" font-weight="600" font-size="13px" color="#333333" font-family="Open Sans, Arial" font-style="italic" align="right">
+            С уважением,
+          </mj-text>
+          <mj-spacer height="5px"></mj-spacer>
+          <mj-text padding="0" font-weight="600" font-size="13px" color="#333333" font-family="Open Sans, Arial" align="right">
+            Sun’s House
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding="0">
+        <mj-column>
+          <mj-divider border-width="1px" border-color="#efc0c1" padding="0"></mj-divider>
+          <mj-section padding="8px 0 16px">
+            <mj-column>
+              <mj-text padding="0" align="left" font-family="Open Sans, Arial" font-size="13px" font-weight="600" color="#333333">
+                <a style="text-decoration: none; color: #333333" href="tel:+38 (067) 429 63 33">
+                  +38 (067) 429 63 33
+                </a>
+              </mj-text>
+              <mj-spacer height="5px"></mj-spacer>
+              <mj-text padding="0" align="left" font-family="Open Sans, Arial" font-size="13px" font-weight="600" color="#333333">
+                <a style="text-decoration: none; color: #333333" href="tel:+38 (063) 429 63 33">
+                  +38 (063) 429 63 33
+                </a>
+              </mj-text>
+            </mj-column>
+            <mj-column padding="0" vertical-align="bottom" align="right">
+              <mj-section text-align="right" padding="0" align="right">
+                <mj-column width="25px" padding="0 0 0 7px" align="right">
+                  <mj-text padding="0" align="right">
+                    <a style="display:inline-block;width:18px;height:13px;background-size:contain;background-position: center;background-image:url('http://alexi-web.000webhostapp.com/suns/youtube.jpg')" target="_blank" href="https://www.youtube.com/user/sunshousecomua">
+                    </a>
+                  </mj-text>
+                </mj-column>
+                <mj-column width="20px" padding="0 0 0 7px" align="right">
+                  <mj-text padding="0" align="right">
+                    <a style="display:inline-block;width:13px;height:13px;background-size:contain;background-position: center;background-image:url('http://alexi-web.000webhostapp.com/suns/fb.jpg')" target="_blank" href="https://www.facebook.com/SunsHouse.com.ua/">
+                    </a>
+                  </mj-text>
+                </mj-column>
+                <mj-column width="20px" padding="0 0 0 7px" align="right">
+                  <mj-text padding="0" align="right">
+                    <a style="display:inline-block;width:13px;height:13px;background-size:contain;background-position: center;background-image:url('http://alexi-web.000webhostapp.com/suns/google.jpg')" target="_blank" href="https://plus.google.com/u/0/104845852520044719899">
+                    </a>
+                  </mj-text>
+                </mj-column>
+                <mj-column width="20px" padding="0 0 0 7px" align="right">
+                  <mj-text padding="0" align="right">
+                    <a style="display:inline-block;width:13px;height:13px;background-size:contain;background-position: center;background-image:url('http://alexi-web.000webhostapp.com/suns/instagram.jpg')" target="_blank" href="https://www.instagram.com/sunshouse/?hl=ru">
+                    </a>
+                  </mj-text>
+                </mj-column>
+              </mj-section>
+            </mj-column>
+          </mj-section>
+        </mj-column>
+
+      </mj-section>
+    </mj-wrapper>
+
+  </mj-body>
+</mjml>
